@@ -1,0 +1,140 @@
+:root{
+    --primary:rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+}
+
+*{
+    background-color: #15202B;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--primary);
+}
+
+.mainpage{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* width: 50%;   */
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    /* border-right: 1px solid wheat; */
+    /* align-items: right; */
+}
+.part1 ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 8rem;
+    margin: 0%;
+    padding: 0%;
+}
+
+.part1 ul li{
+    background-color: transparent;
+    list-style: none;
+    color: yellow;
+    /* margin-top: 0px; */
+ 
+}
+
+#display_pic{
+    margin-top: 8rem;
+}
+
+
+
+.part1 ul li button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50% 50%;
+    padding: 10px;
+}
+
+.part1 ul li button:hover{
+    cursor: pointer;
+
+    background-color: rgba(138, 138, 138, 0.226);
+}
+.part1 ul li img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* Part 2 */
+.part2{
+    
+    max-width: 900px;
+
+
+    border-left: .5px solid gray;
+    border-right: .5px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border-right: 1px solid wheat; */
+    
+}
+
+
+
+.home{
+    padding: 10px 0px 10px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: .5px solid gray;
+    position: sticky;
+}
+
+.home span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home span:hover{
+    cursor: pointer;
+}
+
+.home ul {
+ padding-right: 5px;    
+}
+
+.home ul li button img{
+    background-color: transparent;
+    
+}
+
+.home ul li button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50% 50%;
+    padding: 10px;
+
+}
+
+.home ul li button:hover{
+    background-color: rgba(138, 138, 138, 0.226);
+    cursor: pointer;
+    
+}
+
+
+.part3{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    border-right: 1px solid wheat;
+    
+}
